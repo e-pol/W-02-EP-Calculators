@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <diagram program="umlet" version="13.3">
-  <zoom_level>8</zoom_level>
+  <zoom_level>10</zoom_level>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>552</x>
-      <y>448</y>
-      <w>208</w>
-      <h>208</h>
+      <x>290</x>
+      <y>590</y>
+      <w>260</w>
+      <h>260</h>
     </coordinates>
     <panel_attributes>
 *Shape: Round*
@@ -27,10 +27,10 @@
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>464</x>
-      <y>216</y>
-      <w>144</w>
-      <h>184</h>
+      <x>180</x>
+      <y>300</y>
+      <w>180</w>
+      <h>230</h>
     </coordinates>
     <panel_attributes>
 *Shape*
@@ -49,10 +49,10 @@
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>320</x>
-      <y>448</y>
-      <w>208</w>
-      <h>208</h>
+      <x>0</x>
+      <y>590</y>
+      <w>260</w>
+      <h>260</h>
     </coordinates>
     <panel_attributes>
 *Shape: Rectangular *
@@ -78,10 +78,10 @@
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>416</x>
-      <y>392</y>
-      <w>64</w>
-      <h>72</h>
+      <x>120</x>
+      <y>520</y>
+      <w>80</w>
+      <h>90</h>
     </coordinates>
     <panel_attributes>lt=-
 m1=1
@@ -91,10 +91,10 @@ m2=1</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>600</x>
-      <y>392</y>
-      <w>64</w>
-      <h>72</h>
+      <x>350</x>
+      <y>520</y>
+      <w>80</w>
+      <h>90</h>
     </coordinates>
     <panel_attributes>lt=-
 m1=1
@@ -104,10 +104,10 @@ m2=1</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>704</x>
-      <y>216</y>
-      <w>232</w>
-      <h>184</h>
+      <x>480</x>
+      <y>300</y>
+      <w>290</w>
+      <h>230</h>
     </coordinates>
     <panel_attributes>
 *Material*
@@ -129,10 +129,10 @@ m2=1</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>816</x>
-      <y>184</y>
-      <w>24</w>
-      <h>48</h>
+      <x>620</x>
+      <y>260</y>
+      <w>30</w>
+      <h>60</h>
     </coordinates>
     <panel_attributes>lt=-
 m1=1
@@ -142,13 +142,13 @@ m2=1</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>752</x>
-      <y>0</y>
-      <w>136</w>
-      <h>192</h>
+      <x>540</x>
+      <y>30</y>
+      <w>170</w>
+      <h>240</h>
     </coordinates>
     <panel_attributes>
-*Element*
+*Elements*
 
 --
 
@@ -156,7 +156,7 @@ m2=1</panel_attributes>
 +init(): void
 
 + print(): void
-+ sendToMail(): void
++ email(): void
 
 + check(): void
 + help(): void
@@ -168,10 +168,10 @@ m2=1</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>528</x>
-      <y>80</y>
-      <w>240</w>
-      <h>152</h>
+      <x>260</x>
+      <y>130</y>
+      <w>300</w>
+      <h>190</h>
     </coordinates>
     <panel_attributes>lt=-
 m1=1
@@ -181,10 +181,10 @@ m2=1</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>664</x>
-      <y>712</y>
-      <w>280</w>
-      <h>256</h>
+      <x>430</x>
+      <y>920</y>
+      <w>350</w>
+      <h>320</h>
     </coordinates>
     <panel_attributes>
 *Simply Supported Beam*
@@ -211,10 +211,10 @@ m2=1</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>880</x>
-      <y>648</y>
-      <w>80</w>
-      <h>80</h>
+      <x>700</x>
+      <y>840</y>
+      <w>100</w>
+      <h>100</h>
     </coordinates>
     <panel_attributes>lt=-
 m1=1
@@ -224,10 +224,10 @@ m2=1</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>928</x>
-      <y>448</y>
-      <w>144</w>
-      <h>208</h>
+      <x>760</x>
+      <y>590</y>
+      <w>180</w>
+      <h>260</h>
     </coordinates>
     <panel_attributes>
 *Beam*
@@ -246,10 +246,10 @@ m2=1</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>1168</x>
-      <y>448</y>
-      <w>144</w>
-      <h>208</h>
+      <x>1060</x>
+      <y>590</y>
+      <w>180</w>
+      <h>260</h>
     </coordinates>
     <panel_attributes>
 *Rafter*
@@ -268,10 +268,10 @@ m2=1</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>880</x>
-      <y>128</y>
-      <w>176</w>
-      <h>104</h>
+      <x>700</x>
+      <y>190</y>
+      <w>220</w>
+      <h>130</h>
     </coordinates>
     <panel_attributes>lt=-
 m1=1
@@ -281,10 +281,10 @@ m2=1</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>976</x>
-      <y>216</y>
-      <w>160</w>
-      <h>184</h>
+      <x>820</x>
+      <y>300</y>
+      <w>200</w>
+      <h>230</h>
     </coordinates>
     <panel_attributes>
 *Element Type*
@@ -303,10 +303,10 @@ m2=1</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>992</x>
-      <y>392</y>
-      <w>72</w>
-      <h>72</h>
+      <x>840</x>
+      <y>520</y>
+      <w>90</w>
+      <h>90</h>
     </coordinates>
     <panel_attributes>lt=-
 m1=1
@@ -316,10 +316,10 @@ m2=1</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1128</x>
-      <y>376</y>
-      <w>128</w>
-      <h>88</h>
+      <x>1010</x>
+      <y>500</y>
+      <w>160</w>
+      <h>110</h>
     </coordinates>
     <panel_attributes>lt=-
 m1=1
@@ -329,10 +329,10 @@ m2=1</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>488</x>
-      <y>1288</y>
-      <w>192</w>
-      <h>200</h>
+      <x>210</x>
+      <y>1640</y>
+      <w>240</w>
+      <h>250</h>
     </coordinates>
     <panel_attributes>
 *Uniform Loading*
@@ -352,10 +352,10 @@ m2=1</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>624</x>
-      <y>1024</y>
-      <w>192</w>
-      <h>200</h>
+      <x>380</x>
+      <y>1310</y>
+      <w>240</w>
+      <h>250</h>
     </coordinates>
     <panel_attributes>
 *Loadings Schema*
@@ -376,10 +376,10 @@ m2=1</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>712</x>
-      <y>960</y>
-      <w>64</w>
-      <h>80</h>
+      <x>490</x>
+      <y>1230</y>
+      <w>80</w>
+      <h>100</h>
     </coordinates>
     <panel_attributes>lt=-
 m1=1
@@ -389,10 +389,10 @@ m2=1</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>600</x>
-      <y>1216</y>
-      <w>96</w>
-      <h>88</h>
+      <x>350</x>
+      <y>1550</y>
+      <w>120</w>
+      <h>110</h>
     </coordinates>
     <panel_attributes>lt=-
 m1=1
@@ -402,10 +402,10 @@ m2=1</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>704</x>
-      <y>1288</y>
-      <w>192</w>
-      <h>200</h>
+      <x>480</x>
+      <y>1640</y>
+      <w>240</w>
+      <h>250</h>
     </coordinates>
     <panel_attributes>
 *Concentrated Loading*
@@ -424,10 +424,10 @@ m2=1</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>720</x>
-      <y>1216</y>
-      <w>80</w>
-      <h>88</h>
+      <x>500</x>
+      <y>1550</y>
+      <w>100</w>
+      <h>110</h>
     </coordinates>
     <panel_attributes>lt=-
 m1=1
@@ -437,10 +437,10 @@ m2=1</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>984</x>
-      <y>712</y>
-      <w>280</w>
-      <h>256</h>
+      <x>830</x>
+      <y>920</y>
+      <w>350</w>
+      <h>320</h>
     </coordinates>
     <panel_attributes>
 *Overhanging Beam*
@@ -460,10 +460,10 @@ m2=1</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1008</x>
-      <y>648</y>
-      <w>88</w>
-      <h>80</h>
+      <x>860</x>
+      <y>840</y>
+      <w>110</w>
+      <h>100</h>
     </coordinates>
     <panel_attributes>lt=-
 m1=1
@@ -473,10 +473,10 @@ m2=1</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>1192</x>
-      <y>216</y>
-      <w>144</w>
-      <h>184</h>
+      <x>1090</x>
+      <y>300</y>
+      <w>180</w>
+      <h>230</h>
     </coordinates>
     <panel_attributes>
 *Conditions*
@@ -495,10 +495,10 @@ m2=1</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>880</x>
-      <y>64</y>
-      <w>392</w>
-      <h>168</h>
+      <x>700</x>
+      <y>110</y>
+      <w>490</w>
+      <h>210</h>
     </coordinates>
     <panel_attributes>lt=-
 m1=1
